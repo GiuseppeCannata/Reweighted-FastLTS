@@ -32,17 +32,17 @@ Some doubts are about the implementation of FastMCD. In particular, I used <a hr
       <table>
         <tr><td></td><td><b>Reweighted-FastLTS</b></td><td><b>ltsReg</b></td></tr>
         <tr><td>alpha</td><td>0.5</td><td>0.5</td></tr>
-        <tr><td>quan</td><td> </td><td>13</td></tr>
+        <tr><td>quan</td><td> 13</td><td>13</td></tr>
         <tr><td>raw_coefficents</td><td> </td><td>[0.74092106, 0.39152672, 0.01113454]</td></tr>
         <tr><td>raw_intercept</td><td> </td><td>-37.32332647</td></tr>
-        <tr><td>raw_scale</td><td> </td><td>1.863146</td></tr>
+        <tr><td>raw_scale</td><td>1.863142881084838</td><td>1.863146</td></tr>
         <tr><td>raw_chn_factor</td><td></td><td></td></tr>
-        <tr><td>raw_correction_factor</td><td></td><td>1.884166</td></tr>
+        <tr><td>raw_correction_factor</td>1.88416645<td></td><td>1.884166</td></tr>
         <tr><td></td><td></td></tr>
         <tr><td>coefficents</td><td></td><td>[0.79768556, 0.57734046, -0.06706018]</td></tr>
         <tr><td>intercept</td><td></td><td>-37.65245890</td></tr>
-        <tr><td>scale</td><td></td><td>1.921877</td></tr>
-        <tr><td>chn_factor</td><td></td><td>1.486894 </td></tr>
-        <tr><td>correction_factor</td><td></td><td>1.144674</td></tr>
+        <tr><td>scale</td><td>1.9218770928830033</td><td>1.921877</td></tr>
+        <tr><td>chn_factor</td><td>1.48689415</td><td>1.486894 </td></tr>
+        <tr><td>correction_factor</td><td>1.14467424</td><td>1.144674</td></tr>
       </table>
 </p>
