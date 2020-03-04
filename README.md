@@ -12,18 +12,19 @@ Some doubts are about the implementation of FastMCD. In particular, I used <a hr
   <br>
     <h4>-- Hawkins-Bradu-Kass</h4>
       <table>
-        <tr><td></td><td>Reweighted-FastLTS</td><td>ltsReg</td></tr>
-        <tr><td>alpha</td><td> </td><td> </td></tr>
+        <tr><td></td><td><b>Reweighted-FastLTS</b></td><td><b>ltsReg</b></td></tr>
+        <tr><td>alpha</td><td>0.5</td><td>0.5</td></tr>
+        <tr><td>quan</td><td>40 </td><td> </td></tr>
         <tr><td>raw_coefficents</td><td> </td><td> </td></tr>
         <tr><td>raw_intercept</td><td> </td><td> </td></tr>
-        <tr><td>raw_scale</td><td> </td><td> </td></tr>
-        <tr><td>raw_chn_factor</td><td> </td><td>  </td></tr>
-        <tr><td>raw_correction_factor </td><td> </td><td> </td></tr>
+        <tr><td>raw_scale</td><td> 0.8535975675079938</td><td> </td></tr>
+        <tr><td>raw_chn_factor</td><td>2.46581895</td><td>  </td></tr>
+        <tr><td>raw_correction_factor </td><td>1.2752919</td><td> </td></tr>
         <tr><td></td><td></td></tr>
         <tr><td>coefficents</td><td> </td><td> </td></tr>
         <tr><td>intercept</td><td> </td><td> </td></tr>
-        <tr><td>scale</td><td> </td><td> </td></tr>
-        <tr><td>chn_factor</td><td> </td><td> </td></tr>
-        <tr><td>correction_factor</td><td> </td><td> </td></tr
+        <tr><td>scale</td><td>0.744041162494403</td><td> </td></tr>
+        <tr><td>chn_factor</td><td>1.34586238</td><td> </td></tr>
+        <tr><td>correction_factor</td><td>1.01626593</td><td> </td></tr
       </table>
 </p>
