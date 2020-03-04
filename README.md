@@ -26,6 +26,10 @@ Some doubts are about the implementation of FastMCD. In particular, I used <a hr
         <tr><td>scale</td><td>0.744041162494403</td><td>0.7440412</td></tr>
         <tr><td>chn_factor</td><td>1.34586238</td><td>1.345862</td></tr>
         <tr><td>correction_factor</td><td>1.01626593</td><td>1.016266</td></tr>
+        <tr><td></td><td></td></tr>
+        <tr><td>good leverage points</td><td>[11, 12, 13, 14]</td><td>[11, 12, 13, 14]</td></tr>
+        <tr><td>leverage points</td><td>[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]</td><td>[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]</td></tr>
+        <tr><td>vertical outliers</td><td></td><td></td></tr>
       </table>
   
 <h4>-- Stackloss data</h4>
@@ -44,5 +48,9 @@ Some doubts are about the implementation of FastMCD. In particular, I used <a hr
         <tr><td>scale</td><td>1.9218770928830033</td><td>1.921877</td></tr>
         <tr><td>chn_factor</td><td>1.48689415</td><td>1.486894 </td></tr>
         <tr><td>correction_factor</td><td>1.14467424</td><td>1.144674</td></tr>
+        <tr><td></td><td></td></tr>
+        <tr><td>good leverage points</td><td>[2, 15, 16, 17, 18, 19]</td><td>[2, 15, 16, 17, 18, 19]</td></tr>
+        <tr><td>bad leverage points</td><td>[1, 3, 21]</td><td>[1, 3, 21]</td></tr>
+        <tr><td>vertical outliers</td><td>[4]</td><td>[4]</td></tr>
       </table>
 </p>
