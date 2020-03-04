@@ -37,7 +37,7 @@ Some doubts are about the implementation of FastMCD. In particular, I used <a hr
         <tr><td>raw_intercept</td><td> </td><td>-37.32332647</td></tr>
         <tr><td>raw_scale</td><td>1.863142881084838</td><td>1.863146</td></tr>
         <tr><td>raw_chn_factor</td><td></td><td></td></tr>
-        <tr><td>raw_correction_factor</td>1.88416645<td></td><td>1.884166</td></tr>
+        <tr><td>raw_correction_factor</td><td>1.88416645</td><td>1.884166</td></tr>
         <tr><td></td><td></td></tr>
         <tr><td>coefficents</td><td></td><td>[0.79768556, 0.57734046, -0.06706018]</td></tr>
         <tr><td>intercept</td><td></td><td>-37.65245890</td></tr>
