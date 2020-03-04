@@ -10,10 +10,13 @@ Some doubts are about the implementation of FastMCD. In particular, I used <a hr
   <h3>- Some examples</h3>
   Below I report the results of some tests. In particular, in the left column you will see the results obtained with Reweighted-FastLTS,   while in the right column you will see the results obtained with ltsReg of RStudio's <i>robustbase</i> library. The datasets used are   Hawkins-Bradu-Kass data(HBK) and Stackloss data.
   <br>
+  <center>
+  <img  src="./img/schema.png">
+   </center>
     <h4>-- Hawkins-Bradu-Kass</h4>
       <table>
         <tr><td></td><td><b>Reweighted-FastLTS</b></td><td><b>ltsReg</b></td></tr>
-        <tr><td></td><td><img  href=""></td><td><img  href="">/td></tr>
+        <tr><td></td><td><img  src="./img/python_hbk.png" width="320" height="230"></td><td><img  src="./img/R_hbk.png" width="320" height="230"></td></tr>
         <tr><td>alpha</td><td>0.5</td><td>0.5</td></tr>
         <tr><td>quan</td><td>40</td><td>40</td></tr>
         <tr><td>raw_coefficents</td><td>[ 0.27835867, 0.04327558, -0.10558377] </td><td>[0.27835868, 0.04327561, -0.10558381]</td></tr>
@@ -36,7 +39,7 @@ Some doubts are about the implementation of FastMCD. In particular, I used <a hr
 <h4>-- Stackloss data</h4>
       <table>
         <tr><td></td><td><b>Reweighted-FastLTS</b></td><td><b>ltsReg</b></td></tr>
-        <tr><td></td><td><img  href=""></td><td><img  href="">/td></tr>
+        <tr><td></td><td><img  src="./img/python_stack.png" width="320" height="230"></td><td><img  src="./img/R_stack.png" width="320" height="230"></td></tr>
         <tr><td>alpha</td><td>0.5</td><td>0.5</td></tr>
         <tr><td>quan</td><td> 13</td><td>13</td></tr>
         <tr><td>raw_coefficents</td><td>[0.7409212, 0.39152664, 0.01113465]</td><td>[0.74092106, 0.39152672, 0.01113454]</td></tr>
