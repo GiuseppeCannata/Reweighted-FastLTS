@@ -8,13 +8,22 @@ The attributes of Reweighted-FastLTS python class is the same that would be obta
 Some doubts are about the implementation of FastMCD. In particular, I used <a href="https://scikit-learn.org/stable/modules/generated/sklearn.covariance.MinCovDet.html">MinCovDet<a> from the sklearn library, and I realized that the location and the covariance matrix are different from those obtained by RStudio. Consequence of this is that the Robust Distance turns out to be different.
 <br><br>  
   <h3>- Some examples</h3>
-  Below I report the results of some tests. In particular, in the left column you will see the results obtained with Reweighted-FastLTS,   while in the right column you will see the results obtained with ltsReg of RStudio's <i>robustbase<i> library. The datasets used are     Hawkins-Bradu-Kass data(HBK) and Stackloss data.
+  Below I report the results of some tests. In particular, in the left column you will see the results obtained with Reweighted-FastLTS,   while in the right column you will see the results obtained with ltsReg of RStudio's <i>robustbase</i> library. The datasets used are   Hawkins-Bradu-Kass data(HBK) and Stackloss data.
   <br>
     <h4>-- Hawkins-Bradu-Kass</h4>
       <table>
-        <tr><td>Reweighted-FastLTS</td><td>ltsReg</td></tr>
-        <tr><td>Dato 1,1</td><td>Dato 1,2</td></tr>
-        <tr><td>Dato 2,1</td><td>Dato 2,2</td></tr>
-        <tr><td>Dato 3,1</td><td>Dato 3,2</td></tr>
+        <tr><td></td><td>Reweighted-FastLTS</td><td>ltsReg</td></tr>
+        <tr><td>alpha</td><td> </td><td> </td></tr>
+        <tr><td>raw_coefficents</td><td> </td><td> </td></tr>
+        <tr><td>raw_intercept</td><td> </td><td> </td></tr>
+        <tr><td>raw_scale</td><td> </td><td> </td></tr>
+        <tr><td>raw_chn_factor</td><td> </td><td>  </td></tr>
+        <tr><td>raw_correction_factor </td><td> </td><td> </td></tr>
+        <tr><td></td><td></td></tr>
+        <tr><td>coefficents</td><td> </td><td> </td></tr>
+        <tr><td>intercept</td><td> </td><td> </td></tr>
+        <tr><td>scale</td><td> </td><td> </td></tr>
+        <tr><td>chn_factor</td><td> </td><td> </td></tr>
+        <tr><td>correction_factor</td><td> </td><td> </td></tr
       </table>
 </p>
