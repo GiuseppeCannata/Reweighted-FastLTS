@@ -23,7 +23,7 @@ Some doubts are about the implementation of FastMCD. In particular, I used <a hr
         <tr><td></td><td></td></tr>
         <tr><td>coefficents</td><td> </td><td> </td></tr>
         <tr><td>intercept</td><td> </td><td> </td></tr>
-        <tr><td>scale</td><td>0.744041162494403</td><td> </td></tr>
+        <tr><td>scale</td><td>0.744041162494403</td><td>0.7440412</td></tr>
         <tr><td>chn_factor</td><td>1.34586238</td><td>1.345862</td></tr>
         <tr><td>correction_factor</td><td>1.01626593</td><td>1.016266</td></tr
       </table>
