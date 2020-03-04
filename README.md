@@ -10,9 +10,7 @@ Some doubts are about the implementation of FastMCD. In particular, I used <a hr
   <h3>- Some examples</h3>
   Below I report the results of some tests. In particular, in the left column you will see the results obtained with Reweighted-FastLTS,   while in the right column you will see the results obtained with ltsReg of RStudio's <i>robustbase</i> library. The datasets used are   Hawkins-Bradu-Kass data(HBK) and Stackloss data.
   <br>
-  <center>
-  <img  src="./img/schema.png">
-   </center>
+  <img  src="./img/schema.png" style="text-align: center">
     <h4>-- Hawkins-Bradu-Kass</h4>
       <table>
         <tr><td></td><td><b>Reweighted-FastLTS</b></td><td><b>ltsReg</b></td></tr>
