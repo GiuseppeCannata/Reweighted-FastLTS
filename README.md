@@ -20,7 +20,6 @@ Some doubts are about the implementation of FastMCD. In particular, I used <a hr
         <tr><td>raw_coefficents</td><td>[ 0.27835867, 0.04327558, -0.10558377] </td><td>[0.27835868, 0.04327561, -0.10558381]</td></tr>
         <tr><td>raw_intercept</td><td>-0.62325114 </td><td>-0.6232511</td></tr>
         <tr><td>raw_scale</td><td> 0.8535975675079938</td><td> 0.8543587</td></tr>
-        <tr><td>raw_chn_factor</td><td>2.46581895</td><td></td></tr>
         <tr><td>raw_correction_factor</td><td>1.2752919</td><td>1.275292</td></tr>
         <tr><td></td><td></td></tr>
         <tr><td>coefficents</td><td>[0.08137871, 0.03990183, -0.05166559]</td><td>[0.08137871, 0.03990181, -0.05166558]</td></tr>
@@ -43,7 +42,6 @@ Some doubts are about the implementation of FastMCD. In particular, I used <a hr
         <tr><td>raw_coefficents</td><td>[0.7409212, 0.39152664, 0.01113465]</td><td>[0.74092106, 0.39152672, 0.01113454]</td></tr>
         <tr><td>raw_intercept</td><td>-37.32334</td><td>-37.32332647</td></tr>
         <tr><td>raw_scale</td><td>1.863142881084838</td><td>1.863146</td></tr>
-        <tr><td>raw_chn_factor</td><td></td><td></td></tr>
         <tr><td>raw_correction_factor</td><td>1.88416645</td><td>1.884166</td></tr>
         <tr><td></td><td></td></tr>
         <tr><td>coefficents</td><td>[0.7976856, 0.5773405, -0.06706011]</td><td>[0.79768556, 0.57734046, -0.06706018]</td></tr>
