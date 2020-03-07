@@ -1,12 +1,16 @@
 # Reweighted-FastLTS
 
 <p>
-The <a href="https://www.researchgate.net/publication/220451824_Computing_LTS_Regression_for_Large_Data_Sets" target="_blank">Reweighted-FastLTS<a> is a robust regression algorithm that allows you to detect anomalous observations.
+The Reweighted-FastLTS is a robust regression algorithm that allows you to detect anomalous observations.
 A Python <a href="https://pypi.org/project/ltsfit/" target="_blank">implementation of FastLTS</a> (by Michele Cappellari) is based on the analysis of datasets with 3 predictors <i>(p)</i>. Inspired by the work of Cappellari and the research of <a href="https://scholar.google.com/citations?hl=it&user=5LMM6rsAAAAJ" >Prof. Peter Rousseeuw</a> I implemented a python version of the Reweighted-FastLTS for (i) <i>p</i> predictors with <i>p < n</i> (n number of observations) (ii) <i>n < 600</i>.
 <br><br>
 The attributes of Reweighted-FastLTS python class are the same that would be obtained by invoking the <a href="https://www.rdocumentation.org/packages/robustbase/versions/0.93-5/topics/ltsReg" target="_blank">ltsReg</a> in RStudio.
 Some doubts are about the implementation of FastMCD. In particular, I used <a href="https://scikit-learn.org/stable/modules/generated/sklearn.covariance.MinCovDet.html">MinCovDet<a> from the sklearn library, and I realized that the location and the covariance matrix are different from those obtained by RStudio, with the consequence that the Robust Distance is different.
 <br><br>  
+  <h3>- Reference</h3>
+  <ul>
+    <li><a href="https://www.researchgate.net/publication/220451824_Computing_LTS_Regression_for_Large_Data_Sets">FastLTS<a></li>
+  </ul>
   <h3>- Some examples</h3>
   Below I report the results of some tests. In particular, in the left column you will see the results obtained with Reweighted-FastLTS,   while in the right column you will see the results obtained with ltsReg of RStudio's <i>robustbase</i> library. The datasets used are   <a href="https://www.rdocumentation.org/packages/robustbase/versions/0.93-5/topics/hbk">Hawkins-Bradu-Kass data(HBK)</a> and    <a href="https://www.rdocumentation.org/packages/datasets/versions/3.6.2/topics/stackloss"> Stackloss data </a>.
   <br>
