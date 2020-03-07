@@ -9,7 +9,8 @@ Some doubts are about the implementation of FastMCD. In particular, I used <a hr
 <br><br>  
   <h3>- Reference</h3>
   <ul>
-    <li><a href="https://www.researchgate.net/publication/220451824_Computing_LTS_Regression_for_Large_Data_Sets">FastLTS<a></li>
+    <li><a href="https://www.researchgate.net/publication/220451824_Computing_LTS_Regression_for_Large_Data_Sets">Fast-LTS<a></li>
+    <li><a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/widm.1236">Anomaly detection by robust statistics<a></li>
   </ul>
   <h3>- Some examples</h3>
   Below I report the results of some tests. In particular, in the left column you will see the results obtained with Reweighted-FastLTS,   while in the right column you will see the results obtained with ltsReg of RStudio's <i>robustbase</i> library. The datasets used are   <a href="https://www.rdocumentation.org/packages/robustbase/versions/0.93-5/topics/hbk">Hawkins-Bradu-Kass data(HBK)</a> and    <a href="https://www.rdocumentation.org/packages/datasets/versions/3.6.2/topics/stackloss"> Stackloss data </a>.
